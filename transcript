@@ -1,0 +1,695 @@
+# Project file /home/tec446-01/Downloads/pbl1/simuladorIEEE754/FPU.mpf was not found.
+# Unable to open project.
+# Loading project fpu
+# Compile of arrange_operands.v failed with 1 errors.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v failed with 1 errors.
+# Compile of FPU_tb.v failed with 1 errors.
+# 5 compiles, 3 failed with 3 errors. 
+# Compile of arrange_operands.v failed with 1 errors.
+# Compile of operate.v failed with 1 errors.
+# Compile of FPU_tb.v failed with 1 errors.
+# 3 compiles, 3 failed with 3 errors. 
+# Compile of arrange_operands.v failed with 1 errors.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v failed with 1 errors.
+# Compile of FPU_tb.v failed with 1 errors.
+# 5 compiles, 3 failed with 3 errors. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v failed with 1 errors.
+# Compile of FPU_tb.v failed with 1 errors.
+# 5 compiles, 2 failed with 2 errors. 
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(8): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'Rsem'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(4).
+#         Region: /FPU_tb/fpu
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(40): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'arround'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v(3).
+#         Region: /FPU_tb/fpu/ar
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(8): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'Rsem'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(4).
+#         Region: /FPU_tb/fpu
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(40): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'arround'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v(3).
+#         Region: /FPU_tb/fpu/ar
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+run 100
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+run 100
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+run 100
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+run 100
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Rsem: 000000xxxxxxxxxx
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+run 1
+# Rsem: 000000xxxxxxxxxx
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+run 1
+# Rsem: 0100000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v failed with 1 errors.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+run 1
+# Rsem: 0100010000000000
+# Compile of FPU_tb.v was successful with warnings.
+restart -f
+# Loading workfpu.FPU_tb
+run 2
+# Rsem: 0100010000000000
+# Rsem: 0100010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+# ** Error: (vsim-PLI-3071) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(14): $display : Too few arguments.
+#         Region: /FPU_tb
+# ** Error: (vsim-PLI-3071) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(18): $display : Too few arguments.
+#         Region: /FPU_tb
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# No Design Loaded!
+vsim workfpu.FPU_tb
+# vsim workfpu.FPU_tb 
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+restart -f
+run 2
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# Asem: 0100000110000000
+# Bsem: 0100000010000000
+# Rsem: 0100010100000000
+restart -f
+run 2
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# Asem: 0100000110000000
+# Bsem: 0100000010000000
+# Rsem: 0100010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful with warnings.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+run 2
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# 
+# Asem: 0100000110000000
+# Bsem: 0100000010000000
+# Rsem: 0100010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+run 3
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010010000000
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0101000101100000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading workfpu.FPU_tb
+# Loading workfpu.FPU
+# Loading workfpu.arrange_operands
+# Loading workfpu.operate
+# Loading workfpu.arrange_result
+run 6
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010010000000
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0101000101100000
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0100010000000000
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0100010010000000
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0101000101100000

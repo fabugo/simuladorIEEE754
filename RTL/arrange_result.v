@@ -1,6 +1,6 @@
 module arrange_result (
 	input 		[4:0] 	exp,
-	input 		[2:0] 	arround,
+	input 			 	arround,
 	input 		[9:0] 	Rm,
 	input 				As,
 	input 				Bs,
@@ -11,6 +11,8 @@ module arrange_result (
 			reg [4:0] 	rexp;
 			reg [9:0] 	rRm;
 	always @ ( * ) begin
+		rexp = 0;
+		rRm = 0;
 				rexp = exp + carry;
 				rRm = Rm + arround;
 		if(swap)Rsem = {Bs,rexp,rRm};

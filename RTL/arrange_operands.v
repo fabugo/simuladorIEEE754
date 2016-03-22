@@ -1,8 +1,8 @@
 module arrange_operands(
 	input 		[15:0] 	Asem,
 	input 		[15:0] 	Bsem,
-	output 		[4:0] 	moves,
-	output 		 		swap,
+	output 	reg	[4:0] 	moves,
+	output 	reg	 		swap,
 	output 	reg [4:0] 	exp,
 	output 	reg [9:0] 	Am,
 	output 	reg [9:0] 	Bm
@@ -19,7 +19,7 @@ module arrange_operands(
 			Bm = Bsem[9:0];
 			exp = Asem[14:10];
 		end
-		moves = Am - Bm;
+		moves = Asem[14:10] - Bsem[14:10];
 		if(Asem[15]^Asem[15])
 			Bm = ~Bm + 1;
 	end
