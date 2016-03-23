@@ -1,42 +1,32 @@
 module FPU_tb ();
 	reg [15:0]	Asem,
-				Bsem; 
+				Bsem,
+				Resp; 
 	wire [15:0] Rsem;
 	FPU fpu(
 		.Asem(Asem),
 		.Bsem(Bsem),
 		.Rsem(Rsem)
 		);
-	always begin
-		Asem = {1'b0,5'b10000,10'b0000000000};
-		Bsem = {1'b0,5'b10000,10'b0000000000};
+	integer c;
+	initial begin
+	c = 1;
+		Asem = {1'b1,5'b01110,10'b1000000000};
+		Bsem = {1'b0,5'b01101,10'b0000000000};
+		Resp = {1'b0,5'b01110,10'b0000000000};
 		#1
-		$display("\n\nAsem: %b\nBsem: %b\nRsem: %b",Asem,Bsem,Rsem);
-		//----------------------------------------------------------
-		Asem = {1'b0,5'b10000,10'b011000000};
-		Bsem = {1'b0,5'b10000,10'b001000000};
+		$display("\nTeste %d\nAsem: %b\nBsem: %b\nRsem: %b",c,Asem,Bsem,Rsem);
+		if (Resp != Rsem) 	$display("OKAY!");
+		else 				$display("ERRO!");
+	c = c + 1;
+	c = 1;
+		Asem = {1'b1,5'b01110,10'b1001100110};
+		Bsem = {1'b0,5'b01111,10'b1100110011};
+		Resp = {1'b0,5'b01111,10'b0000000000};
 		#1
-		$display("\n\nAsem: %b\nBsem: %b\nRsem: %b",Asem,Bsem,Rsem);
-		//----------------------------------------------------------
-		Asem = {1'b0,5'b10011,10'b0110000000};
-		Bsem = {1'b0,5'b10011,10'b0101000000};
-		#1
-		$display("\n\nAsem: %b\nBsem: %b\nRsem: %b",Asem,Bsem,Rsem);
-		//----------------------------------------------------------
-		Asem = {1'b0,5'b10000,10'b0000000000};
-		Bsem = {1'b1,5'b10000,10'b0000000000};
-		#1
-		$display("\n\nAsem: %b\nBsem: %b\nRsem: %b",Asem,Bsem,Rsem);
-		//----------------------------------------------------------
-		Asem = {1'b0,5'b10000,10'b011000000};
-		Bsem = {1'b1,5'b10000,10'b001000000};
-		#1
-		$display("\n\nAsem: %b\nBsem: %b\nRsem: %b",Asem,Bsem,Rsem);
-		//----------------------------------------------------------
-		Asem = {1'b0,5'b10011,10'b0110000000};
-		Bsem = {1'b1,5'b10011,10'b0101000000};
-		#1
-		$display("\n\nAsem: %b\nBsem: %b\nRsem: %b",Asem,Bsem,Rsem);
-		//----------------------------------------------------------
+		$display("\nTeste %d\nAsem: %b\nBsem: %b\nRsem: %b",c,Asem,Bsem,Rsem);
+		if (Resp == Rsem) 	$display("OKAY!");
+		else 				$display("ERRO!");
+	c = c + 1;
 	end
 endmodule // FPU_tb

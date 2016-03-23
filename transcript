@@ -1,36 +1,9 @@
-# Project file /home/tec446-01/Downloads/pbl1/simuladorIEEE754/FPU.mpf was not found.
-# Unable to open project.
 # Loading project fpu
-# Compile of arrange_operands.v failed with 1 errors.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v failed with 1 errors.
-# Compile of FPU_tb.v failed with 1 errors.
-# 5 compiles, 3 failed with 3 errors. 
-# Compile of arrange_operands.v failed with 1 errors.
-# Compile of operate.v failed with 1 errors.
-# Compile of FPU_tb.v failed with 1 errors.
-# 3 compiles, 3 failed with 3 errors. 
-# Compile of arrange_operands.v failed with 1 errors.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v failed with 1 errors.
-# Compile of FPU_tb.v failed with 1 errors.
-# 5 compiles, 3 failed with 3 errors. 
 # Compile of arrange_operands.v was successful.
 # Compile of arrange_result.v was successful.
 # Compile of FPU.v was successful.
 # Compile of operate.v failed with 1 errors.
-# Compile of FPU_tb.v failed with 1 errors.
-# 5 compiles, 2 failed with 2 errors. 
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v failed with 1 errors.
-# 2 compiles, 1 failed with 1 error. 
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v failed with 1 errors.
+# Compile of FPU_tb.v was successful.
 # 5 compiles, 1 failed with 1 error. 
 # Compile of arrange_operands.v was successful.
 # Compile of arrange_result.v was successful.
@@ -38,590 +11,43 @@
 # Compile of operate.v was successful.
 # Compile of FPU_tb.v was successful.
 # 5 compiles, 0 failed with no errors. 
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(8): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'Rsem'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(4).
-#         Region: /FPU_tb/fpu
-# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(40): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'arround'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v(3).
+vsim work.FPU_tb
+# vsim work.FPU_tb 
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(40): [PCDPC] - Port size (11 or 11) does not match connection size (10) for port 'Rm'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v(4).
 #         Region: /FPU_tb/fpu/ar
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(8): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'Rsem'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(4).
-#         Region: /FPU_tb/fpu
-# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(40): [PCDPC] - Port size (3 or 3) does not match connection size (1) for port 'arround'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v(3).
+vsim work.FPU_tb
+# vsim work.FPU_tb 
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(40): [PCDPC] - Port size (11 or 11) does not match connection size (10) for port 'Rm'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v(4).
 #         Region: /FPU_tb/fpu/ar
+compile all
+# invalid command name "compile"
+-compile all
+# invalid command name "-compile"
 # Compile of arrange_operands.v was successful.
 # Compile of arrange_result.v was successful.
 # Compile of FPU.v was successful.
 # Compile of operate.v was successful.
 # Compile of FPU_tb.v was successful.
 # 5 compiles, 0 failed with no errors. 
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-run 100
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful.
-# 5 compiles, 0 failed with no errors. 
-run 100
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful.
-# 5 compiles, 0 failed with no errors. 
-run 100
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-run 100
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Rsem: 000000xxxxxxxxxx
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-run 1
-# Rsem: 000000xxxxxxxxxx
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-run 1
-# Rsem: 0100000000000000
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v failed with 1 errors.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 1 failed with 1 error. 
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-run 1
-# Rsem: 0100010000000000
-# Compile of FPU_tb.v was successful with warnings.
-restart -f
-# Loading workfpu.FPU_tb
-run 2
-# Rsem: 0100010000000000
-# Rsem: 0100010000000000
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-restart -f
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-# ** Error: (vsim-PLI-3071) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(14): $display : Too few arguments.
-#         Region: /FPU_tb
-# ** Error: (vsim-PLI-3071) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v(18): $display : Too few arguments.
-#         Region: /FPU_tb
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-restart -f
-# No Design Loaded!
-vsim workfpu.FPU_tb
-# vsim workfpu.FPU_tb 
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-restart -f
-run 2
-# Asem: 0100000000000000
-# Bsem: 0100000000000000
-# Rsem: 0100010000000000
-# Asem: 0100000110000000
-# Bsem: 0100000010000000
-# Rsem: 0100010100000000
-restart -f
-run 2
-# Asem: 0100000000000000
-# Bsem: 0100000000000000
-# Rsem: 0100010000000000
-# Asem: 0100000110000000
-# Bsem: 0100000010000000
-# Rsem: 0100010100000000
-# Compile of arrange_operands.v was successful.
-# Compile of arrange_result.v was successful.
-# Compile of FPU.v was successful.
-# Compile of operate.v was successful.
-# Compile of FPU_tb.v was successful with warnings.
-# 5 compiles, 0 failed with no errors. 
-restart -f
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-run 2
-# 
-# 
-# Asem: 0100000000000000
-# Bsem: 0100000000000000
-# Rsem: 0100010000000000
-# 
-# 
-# Asem: 0100000110000000
-# Bsem: 0100000010000000
-# Rsem: 0100010100000000
+vsim work.FPU_tb
+# vsim work.FPU_tb 
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+# ** Warning: (vsim-3015) /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v(30): [PCDPC] - Port size (10 or 10) does not match connection size (11) for port 'Rm'. The port definition is at: /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v(7).
+#         Region: /FPU_tb/fpu/o
 # Compile of arrange_operands.v was successful.
 # Compile of arrange_result.v was successful.
 # Compile of FPU.v was successful.
@@ -629,27 +55,85 @@ run 2
 # Compile of FPU_tb.v was successful.
 # 5 compiles, 0 failed with no errors. 
 restart -f
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-run 3
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+restart -f
+vsim work.FPU_tb
+# vsim work.FPU_tb 
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+-run 0.5
+# invalid command name "-run"
+run 0.5
+# (vsim-168) The time value, 0.5, is smaller than the simulator resolution so it has been truncated to 0.
+run 0.9
+# (vsim-168) The time value, 0.9, is smaller than the simulator resolution so it has been truncated to 0.
+run 1.9
 # 
 # 
 # Asem: 0100000000000000
 # Bsem: 0100000000000000
 # Rsem: 0100010000000000
+run 1.9
 # 
 # 
 # Asem: 0100000011000000
 # Bsem: 0100000001000000
 # Rsem: 0100010010000000
+run 1.9
 # 
 # 
 # Asem: 0100110110000000
 # Bsem: 0100110101000000
 # Rsem: 0101000101100000
+run 1.9
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0011110000000000
+run 1.9
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0011110100100000
+run 1.9
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0100100100010000
+run 1.9
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+run 1.9
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010010000000
+run 1.9
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0101000101100000
+run 1.9
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0011110000000000
 # Compile of arrange_operands.v was successful.
 # Compile of arrange_result.v was successful.
 # Compile of FPU.v was successful.
@@ -657,12 +141,30 @@ run 3
 # Compile of FPU_tb.v was successful.
 # 5 compiles, 0 failed with no errors. 
 restart -f
-# Loading workfpu.FPU_tb
-# Loading workfpu.FPU
-# Loading workfpu.arrange_operands
-# Loading workfpu.operate
-# Loading workfpu.arrange_result
-run 6
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# 
+# Asem: 1100000000000000
+# Bsem: 0100000000000000
+# Rsem: 1011110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 7
 # 
 # 
 # Asem: 0100000000000000
@@ -682,14 +184,1486 @@ run 6
 # 
 # Asem: 0100000000000000
 # Bsem: 1100000000000000
-# Rsem: 0100010000000000
+# Rsem: 0011110000000000
 # 
 # 
 # Asem: 0100000011000000
 # Bsem: 1100000001000000
-# Rsem: 0100010010000000
+# Rsem: 0011110100100000
 # 
 # 
 # Asem: 0100110110000000
 # Bsem: 1100110101000000
+# Rsem: 0100100100010000
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+run 10
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010010000000
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
 # Rsem: 0101000101100000
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0011110000000000
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0011110100100000
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0100100100010000
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010010000000
+# 
+# 
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0101000101100000
+# 
+# 
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0011110000000000
+# 
+# 
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0011110100100000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+clean
+# invalid command name "clean"
+clear
+# [3;J[H[2J
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           x
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# Teste           x
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010000000000
+# 
+# Teste           x
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0100010000000000
+# 
+# Teste           x
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0100010000000000
+# 
+# Teste           x
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0100010000000000
+# 
+# Teste           x
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0100010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           2
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# Teste           3
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010000000000
+# 
+# Teste           4
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0100010000000000
+# 
+# Teste           5
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0100010000000000
+# 
+# Teste           6
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0100010000000000
+# 
+# Teste           7
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0100010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 0100000000000000
+# Bsem: 0100000000000000
+# Rsem: 0100010000000000
+# 
+# Teste           2
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100010000000000
+# 
+# Teste           3
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0100010000000000
+# 
+# Teste           4
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0100010000000000
+# 
+# Teste           5
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0100010000000000
+# 
+# Teste           6
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0100010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1100110110000000
+# Bsem: 0100110000000000
+# Rsem: 1100100001100000
+# 
+# Teste           2
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 1100100001100000
+# 
+# Teste           3
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 1100100001100000
+# 
+# Teste           4
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 1100100001100000
+# 
+# Teste           5
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 1100100001100000
+# 
+# Teste           6
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 1100100001100000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1100110000000000
+# Bsem: 0101000000000000
+# Rsem: 0100110000000000
+# 
+# Teste           2
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 0100110000000000
+# 
+# Teste           3
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 0100110000000000
+# 
+# Teste           4
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 0100110000000000
+# 
+# Teste           5
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 0100110000000000
+# 
+# Teste           6
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 0100110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1011100000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010000000000
+# 
+# Teste           2
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 1011010000000000
+# 
+# Teste           3
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 1011010000000000
+# 
+# Teste           4
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 1011010000000000
+# 
+# Teste           5
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 1011010000000000
+# 
+# Teste           6
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 1011010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# 
+# Teste           2
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 1011010100000000
+# 
+# Teste           3
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 1011010100000000
+# 
+# Teste           4
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 1011010100000000
+# 
+# Teste           5
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 1011010100000000
+# 
+# Teste           6
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v failed with 1 errors.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# 
+# Teste           2
+# Asem: 0100000011000000
+# Bsem: 0100000001000000
+# Rsem: 1011010100000000
+# 
+# Teste           3
+# Asem: 0100110110000000
+# Bsem: 0100110101000000
+# Rsem: 1011010100000000
+# 
+# Teste           4
+# Asem: 0100000000000000
+# Bsem: 1100000000000000
+# Rsem: 1011010100000000
+# 
+# Teste           5
+# Asem: 0100000011000000
+# Bsem: 1100000001000000
+# Rsem: 1011010100000000
+# 
+# Teste           6
+# Asem: 0100110110000000
+# Bsem: 1100110101000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v failed with 1 errors.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# RM   x
+# 
+# RM   x
+# 
+# RM 512
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 6
+# 
+# RM  
+# 
+# RM  
+# 
+# RM 
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+restart -f
+run 6
+# 
+# RMxxxxxxxxxxx
+# 
+# RMxxxxxxxxxxx
+# 
+# RM01000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# RM xxxxxxxxxxx
+# 
+# RM xxxxxxxxxxx
+# 
+# RM 01000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# RM 01000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# Teste           9
+# 
+# Teste           8
+# 
+# Teste           7
+# 
+# Teste           6
+# 
+# Teste           5
+# 
+# Teste           4
+# 
+# Teste           3
+# 
+# Teste           2
+# 
+# Teste           1
+# 
+# Teste           0
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+#  c           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+run 1
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+#  c           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+#  rmaaaaaaa  512
+# 
+#  c           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+restart -f
+run 1
+# 
+#  rmaaaaaaa 001000000000
+# 
+#  c           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010000000000
+# Compile of operate.v was successful.
+restart -f
+# Loading work.operate
+run 1
+# 
+#  quem era B 10000000000
+# 
+#  quem era moves  1
+# 
+#  B fico rico 10000000000
+# 
+#  rmaaaaaaa 001000000000
+# 
+#  c           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010000000000
+# Compile of operate.v was successful.
+run 1
+restart -f
+# Loading work.operate
+run 1
+# 
+#  quem era B 10000000000
+# 
+#  quem era moves  1
+# 
+#  B fico rico 00000000000000001000000000
+# 
+#  rmaaaaaaa 001000000000
+# 
+#  c           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011010000000000
+# Compile of operate.v was successful.
+restart -f
+# Loading work.operate
+run 1
+# 
+#  quem era B 10000000000
+# 
+#  quem era moves  1
+# 
+#  B fico rico 01000000000000000000000000
+# 
+#  rmaaaaaaa 010000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+#  c          11
+# 
+#  c          11
+# 
+#  c          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter           2
+# Counter           3
+# Counter           4
+# Counter           5
+# Counter           6
+# Counter           7
+# Counter           8
+# Counter           9
+# Counter          10
+# Counter          11
+# Counter           2
+# Counter           3
+# Counter           4
+# Counter           5
+# Counter           6
+# Counter           7
+# Counter           8
+# Counter           9
+# Counter          10
+# Counter          11
+# Counter           2
+# Counter           3
+# Counter           4
+# Counter           5
+# Counter           6
+# Counter           7
+# Counter           8
+# Counter           9
+# Counter          10
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter           2
+# Counter           3
+# Counter           4
+# Counter           5
+# Counter           6
+# Counter           7
+# Counter           8
+# Counter           9
+# Counter          10
+# Counter          11
+# Counter           2
+# Counter           3
+# Counter           4
+# Counter           5
+# Counter           6
+# Counter           7
+# Counter           8
+# Counter           9
+# Counter          10
+# Counter          11
+# Counter           2
+# Counter           3
+# Counter           4
+# Counter           5
+# Counter           6
+# Counter           7
+# Counter           8
+# Counter           9
+# Counter          10
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000110000000000
+# Compile of arrange_result.v was successful.
+restart -f
+# Loading work.arrange_result
+run 1
+# Rm xxxxxxxxxxx
+# Counter          11
+# Rm xxxxxxxxxxx
+# Counter          11
+# Rm 10000000000
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Rm xxxxxxxxxxx
+# Counter          11
+# Rm 10000000000
+# Rm xxxxxxxxxxx
+# Counter          11
+# Rm 10000000000
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000110000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter          11
+# bgas 01000000000000000000000000
+# A 11000000000
+# R 100000000000
+# Rm 00000000000
+# Counter          11
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter          11
+# bgas 10000000000000000000000000
+# A 11000000000
+# R 101000000000
+# Rm 01000000000
+# Counter          11
+# Counter           1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000100000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+# Compile of operate.v was successful.
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter          11
+# moves  1
+# bgas 01000000000000000000000000
+# A 11000000000
+# R 100000000000
+# Rm 00000000000
+# Counter          11
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter          11
+# Asem[14:10] 01110
+# Bsem[14:10] 01101
+# moves  1
+# bgas 01000000000000000000000000
+# A 11000000000
+# R 100000000000
+# Rm 00000000000
+# Counter          11
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter          11
+# Asem[14:10] 01110
+# Bsem[14:10] 01101
+# moves 00001
+# moves  1
+# bgas 01000000000000000000000000
+# A 11000000000
+# R 100000000000
+# Rm 00000000000
+# Counter          11
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# Counter          11
+# Asem[14:10] 14
+# Bsem[14:10] 13
+# moves  1
+# moves  1
+# bgas 01000000000000000000000000
+# A 11000000000
+# R 100000000000
+# Rm 00000000000
+# Counter          11
+# Counter          11
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1000000000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 1
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# OKAY!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# Bm 0000000000
+# Bm 0000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# Bm 1001100110
+# Bm 0110011010
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# A 11000000000
+# bgas 11000000000000000000000000
+# R 110000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# A 11100110011
+# bgas 00000000000000000000000000
+# R 011100110011
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# bgas antes 01000000000000000000000000
+# A 11000000000
+# bgas 11000000000000000000000000
+# R 110000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# bgas antes 00000000000000000000000000
+# A 11100110011
+# bgas 00000000000000000000000000
+# R 011100110011
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# B 10000000000
+# A 11000000000
+# bgas 11000000000000000000000000
+# R 110000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# B 11001100110
+# A 11100110011
+# bgas 00000000000000000000000000
+# R 011100110011
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+restart -f
+run 2
+# B 10000000000
+# moves 00001
+# A 11000000000
+# bgas 11000000000000000000000000
+# R 110000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# B 11001100110
+# moves 11111
+# A 11100110011
+# bgas 00000000000000000000000000
+# R 011100110011
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011101110011001
+# ERRO!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.FPU_tb
+# Loading work.FPU
+# Loading work.arrange_operands
+# Loading work.operate
+# Loading work.arrange_result
+run 2
+# B 10000000000
+# moves 00001
+# A 11000000000
+# bgas 11000000000000000000000000
+# R 110000000000
+# 
+# Teste           1
+# Asem: 1011101000000000
+# Bsem: 0011010000000000
+# Rsem: 1011100000000000
+# OKAY!
+# B 11001100110
+# moves 00001
+# A 11100110011
+# bgas 10011001101000000000000000
+# R 110000000000
+# 
+# Teste           1
+# Asem: 1011101001100110
+# Bsem: 0011111100110011
+# Rsem: 0011110000000000
+# OKAY!
+# Compile of arrange_operands.v was successful.
+# Compile of arrange_result.v was successful.
+# Compile of FPU.v was successful.
+# Compile of operate.v was successful.
+# Compile of FPU_tb.v was successful.
+# 5 compiles, 0 failed with no errors. 

@@ -4,7 +4,7 @@ entity arrange_result is
     port(
         exp             : in     vl_logic_vector(4 downto 0);
         arround         : in     vl_logic;
-        Rm              : in     vl_logic_vector(9 downto 0);
+        Rm              : in     vl_logic_vector(10 downto 0);
         As              : in     vl_logic;
         Bs              : in     vl_logic;
         swap            : in     vl_logic;

@@ -2,12 +2,15 @@ module operate (
 	input 		[4:0]	moves,
 	input 		[9:0]	Am,
 	input 		[9:0]	Bm,
+	input 				As,
+	input 				Bs,
 	output 	reg			arround,
 	output	reg			carry,
-	output	reg [9:0]	Rm
+	output	reg [10:0]	Rm
 	);
 			reg [25:0] 	bgas;
 			reg [11:0] 	R;
+			reg [10:0]  A;
 			reg [10:0]  B;
 	always @ ( * ) begin
 		bgas = 0;
@@ -18,8 +21,9 @@ module operate (
 			A[10] = 1;
 			B = Bm;
 			B[10] = 1;
-			bgas = B >> moves;
-			R = Am + bgas[25:15];
+			bgas[25:15] = B >> moves;
+			bgas[25:15] = ~bgas[25:15] + 10'b0000000001;
+			R = A + bgas[25:15];
 			Rm = R[10:0];
 			carry = R[11];
 			if(bgas[14:0]>0)arround = 1;

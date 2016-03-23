@@ -13,14 +13,13 @@ module arrange_operands(
 			Am = Bsem[9:0];
 			Bm = Asem[9:0];
 			exp = Bsem[14:10];
+			moves = Bsem[14:10] - Asem[14:10];
 		end else begin
 			swap = 0;
 			Am = Asem[9:0];
 			Bm = Bsem[9:0];
 			exp = Asem[14:10];
+			moves = Asem[14:10] - Bsem[14:10];
 		end
-		moves = Asem[14:10] - Bsem[14:10];
-		if(Asem[15]^Bsem[15])
-			Bm = (~Bm) + 1;
 	end
 endmodule // arrange_operands

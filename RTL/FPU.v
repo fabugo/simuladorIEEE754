@@ -9,8 +9,8 @@ module FPU (
 	wire 	[4:0] 	moves,
 					exp;
 	wire 	[9:0] 	Am,
-					Bm,
-					Rm;
+					Bm;
+	wire 	[10:0]	Rm;
 	arrange_operands ao(
 		.Asem(Asem),
 		.Bsem(Bsem),
@@ -24,6 +24,8 @@ module FPU (
 		.moves(moves),
 		.Am(Am),
 		.Bm(Bm),
+		.As(Asem[15]),
+		.Bs(Bsem[15]),
 		.arround(arround),
 		.carry(carry),
 		.Rm(Rm)
