@@ -20,7 +20,7 @@ module arrange_operands(
 			exp = Asem[14:10];
 		end
 		moves = Asem[14:10] - Bsem[14:10];
-		if(Asem[15]^Asem[15])
-			Bm = ~Bm + 1;
+		if(Asem[15]^Bsem[15])
+			Bm = (~Bm) + 1;
 	end
 endmodule // arrange_operands
