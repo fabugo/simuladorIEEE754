@@ -4,20 +4,20 @@ K3
 cModel Technology
 Z0 d/home/tec446-01/Downloads/pbl1/simuladorIEEE754
 varrange_operands
-Z1 !s100 6M<]KA9K:0_?V@T[Lb[Bk1
-Z2 ISTbZdMXPN?G@;7LnVW]m?1
-Z3 V^G>J?`=OezMl3RTnhFjnG0
-Z4 d/home/tec446-01/Downloads/pbl1/simuladorIEEE754
-Z5 w1458758527
-Z6 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
-Z7 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
+Z1 Io5LT4mhP@f0HCi6GQ76z23
+Z2 V^G>J?`=OezMl3RTnhFjnG0
+Z3 d/home/tec446-01/Downloads/pbl1/simuladorIEEE754
+Z4 w1459173878
+Z5 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
+Z6 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
 L0 1
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v|
-Z10 o-work workfpu -O0
-Z11 !s108 1458758574.524261
+Z8 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v|
+Z9 o-work workfpu -O0
+Z10 !s100 He5JkY@8nZb8o0i:hU?3C1
+Z11 !s108 1459173897.429305
 Z12 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v|
 !i10b 1
 !s85 0
@@ -26,17 +26,17 @@ varrange_result
 Z13 !s100 j@Z_5?2W1gHM39F:m@I[E3
 Z14 I_b3V`W2Slm8FHMFj53Xa>3
 Z15 Vo`ODh<nf@UMIYHAk2Ma_42
-R4
+R3
 Z16 w1458756809
 Z17 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v
 Z18 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v
 L0 1
-R8
+R7
 r1
 31
 Z19 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v|
-R10
-Z20 !s108 1458758574.549160
+R9
+Z20 !s108 1459173897.456783
 Z21 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v|
 !i10b 1
 !s85 0
@@ -45,58 +45,58 @@ vFPU
 Z22 !s100 :6bMbne8fD[;:@]glhHXh2
 Z23 IP6fCLU>b8JC4El6JQHbjH3
 Z24 VkmndRS4c92=KcLUiR4[8Y3
-R4
+R3
 Z25 w1458758084
 Z26 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v
 Z27 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v
 L0 1
-R8
+R7
 r1
 31
 Z28 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v|
-R10
+R9
 Z29 n@f@p@u
-Z30 !s108 1458758574.571241
+Z30 !s108 1459173897.483340
 Z31 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vFPU_tb
 !i10b 1
-Z32 !s100 4Enz;`?3R09JR`BC7W`1@1
-Z33 IDE`6lRgS5PTHAk1KGlmLa2
+Z32 !s100 l6Tk@;O?3>_GUkZJ90O8Q3
+Z33 IhJg<FUeS_3DfgDJ:1WR@S3
 Z34 VoWiFRI`2QPWd_NVCX]V4g3
-R4
-Z35 w1458757276
+R3
+Z35 w1459173493
 Z36 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v
 Z37 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v
 L0 1
-R8
+R7
 r1
 !s85 0
 31
-!s108 1458758574.618915
+!s108 1459173897.534944
 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v|
 Z38 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v|
 !s101 -O0
-R10
+R9
 Z39 n@f@p@u_tb
 voperate
-Z40 IQloDiOH`XmfG>>aB1iLPQ2
+Z40 I4Y2Z]_ZbQZz3LZhX@Y=WS0
 Z41 VQ9HFj474:@=7McN1mGEG@3
-R4
-Z42 w1458758562
+R3
+Z42 w1459173848
 Z43 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v
 Z44 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v
 L0 1
-R8
+R7
 r1
 31
 Z45 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v|
-R10
+R9
 !i10b 1
-Z46 !s100 C^mmW=>lM=D^B7aST[ZS<3
+Z46 !s100 Z5Goe6z1TN6<Nz_iF;`LY2
 !s85 0
-Z47 !s108 1458758574.594162
+Z47 !s108 1459173897.506768
 Z48 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v|
 !s101 -O0

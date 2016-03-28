@@ -8,18 +8,26 @@ module arrange_operands(
 	output 	reg [9:0] 	Bm
 	);
 	always @ ( * ) begin
-		if(Asem[14:10]<Bsem[14:10])begin
-			swap = 1;
-			Am = Bsem[9:0];
-			Bm = Asem[9:0];
-			exp = Bsem[14:10];
-			moves = Bsem[14:10] - Asem[14:10];
-		end else begin
+		if (Asem[14:0] == Bsem[14:0] && Asem[15] != Bsem[15]) begin
 			swap = 0;
-			Am = Asem[9:0];
-			Bm = Bsem[9:0];
-			exp = Asem[14:10];
-			moves = Asem[14:10] - Bsem[14:10];
+			Am = 0;
+			Bm = 0;
+			exp = 0;
+			moves = 0;
+		end else begin
+			if(Asem[14:10]<Bsem[14:10])begin
+				swap = 1;
+				Am = Bsem[9:0];
+				Bm = Asem[9:0];
+				exp = Bsem[14:10];
+				moves = Bsem[14:10] - Asem[14:10];
+			end else begin
+				swap = 0;
+				Am = Asem[9:0];
+				Bm = Bsem[9:0];
+				exp = Asem[14:10];
+				moves = Asem[14:10] - Bsem[14:10];
+			end
 		end
 	end
 endmodule // arrange_operands

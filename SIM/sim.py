@@ -1,7 +1,6 @@
 import sys
 from random import *
 
-
 #Tranforma o valor da mantissa em um valor decimal com ponto flutuante ( float )
 def binFracToFloat(M):
 	R = 0.0

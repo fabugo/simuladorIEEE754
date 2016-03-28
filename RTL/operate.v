@@ -22,10 +22,12 @@ module operate (
 			B = Bm;
 			B[10] = 1;
 			bgas[25:15] = B >> moves;
-			bgas[25:15] = ~bgas[25:15] + 10'b0000000001;
+			if(As != Bs) bgas[25:15] = ~bgas[25:15] + 10'b0000000001;
+			else bgas[25:15] = bgas[25:15] + 10'b0000000000;
 			R = A + bgas[25:15];
-			Rm = R[10:0];
 			carry = R[11];
+			if(carry && As == Bs) R[10:0] = R[10:0] >> 1;
+			Rm = R[10:0];
 			if(bgas[14:0]>0)arround = 1;
 			else 			arround = 0;
 		end else begin
