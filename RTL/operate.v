@@ -16,11 +16,11 @@ module operate (
 		bgas = 0;
 		arround = 0;
 		Rm = 0;
+		A = Am;
+		A[10] = 1;
+		B = Bm;
+		B[10] = 1;
 		if(moves) begin
-			A = Am;
-			A[10] = 1;
-			B = Bm;
-			B[10] = 1;
 			bgas[25:15] = B >> moves;
 			if(As != Bs) bgas[25:15] = ~bgas[25:15] + 10'b0000000001;
 			else bgas[25:15] = bgas[25:15] + 10'b0000000000;
@@ -31,9 +31,11 @@ module operate (
 			if(bgas[14:0]>0)arround = 1;
 			else 			arround = 0;
 		end else begin
-			R = Am + Bm;
-			Rm = R >> 1;
-			carry = 1;
+			if(As != Bs)begin
+				B = ~B + 10'b0000000001;
+				carry = 0;
+			end else carry = 1;
+			Rm = A + B;
 		end
 	end
 endmodule // operate

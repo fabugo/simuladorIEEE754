@@ -5,7 +5,9 @@ module FPU (
 	);
 	wire 			swap,
 					arround,
-					carry;
+					carry,
+					As,
+					Bs;
 	wire 	[4:0] 	moves,
 					exp;
 	wire 	[9:0] 	Am,
@@ -14,6 +16,8 @@ module FPU (
 	arrange_operands ao(
 		.Asem(Asem),
 		.Bsem(Bsem),
+		.As(As),
+		.Bs(Bs),
 		.moves(moves),
 		.swap(swap),
 		.exp(exp),
@@ -24,8 +28,8 @@ module FPU (
 		.moves(moves),
 		.Am(Am),
 		.Bm(Bm),
-		.As(Asem[15]),
-		.Bs(Bsem[15]),
+		.As(As),
+		.Bs(Bs),
 		.arround(arround),
 		.carry(carry),
 		.Rm(Rm)

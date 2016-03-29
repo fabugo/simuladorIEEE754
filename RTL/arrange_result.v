@@ -20,12 +20,12 @@ module arrange_result (
 			notfind = 1;
 			counter = 1;
 			for(i=9;i>=0;i=i-1)begin
-				if(Rm[i])	notfind = 0;
+				if(Rm[i])				notfind = 0;
 				if(notfind) 			counter = counter + 1;
 			end
 			if(!carry) 	rexp = exp - counter;
 			else 		rexp = exp;
-			rRm = Rm >> counter;
+			rRm = Rm << counter;
 		end else begin
 				rexp = exp + carry;
 				rRm = Rm + arround;

@@ -5,6 +5,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	arrange_result
 
+} {} {}} /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v {1 {vlog -work workfpu /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module arrange_operands
+
+Top level modules:
+	arrange_operands
+
 } {} {}} /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v {1 {vlog -work workfpu /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module FPU
