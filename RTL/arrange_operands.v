@@ -18,6 +18,22 @@ module arrange_operands(
 			Bs = 0;
 			exp = 0;
 			moves = 0;
+		end if(Asem[14:0] == 0  && Asem[15] != Bsem[15]) begin
+			swap = 0;
+			Am = Asem[9:0];
+			Bm = Bsem[9:0];
+			As = ~Asem[15];
+			Bs = Bsem[15];
+			exp = Bsem[14:10];
+			moves = 0;
+		end ifif(Asem[14:0] == 0  && Asem[15] != Bsem[15]) begin	
+			swap = 0;
+			Am = Asem[9:0];
+			Bm = Bsem[9:0];
+			As = Asem[15];
+			Bs = ~Bsem[15];
+			exp = Asem[14:10];
+			moves = 0;
 		end else begin
 			if(Asem[14:10]<Bsem[14:10])begin
 				swap = 1;
@@ -27,7 +43,7 @@ module arrange_operands(
 				Bs = Bsem[15];
 				exp = Bsem[14:10];
 				moves = Bsem[14:10] - Asem[14:10];
-			end else begin
+			end if(Asem[14:10]<Bsem[14:10]) begin
 				swap = 0;
 				Am = Asem[9:0];
 				Bm = Bsem[9:0];
@@ -35,6 +51,22 @@ module arrange_operands(
 				Bs = Bsem[15];
 				exp = Asem[14:10];
 				moves = Asem[14:10] - Bsem[14:10];
+			end if (Asem[14:10] == Bsem[14:10])begin
+				if(Asem[9:0] < Bsem[9:0]) begin
+					swap = 1;
+					Am = Bsem[9:0];
+					Bm = Asem[9:0];
+					As = Asem[15];
+					Bs = Bsem[15];
+					exp = Bsem[14:10];
+				end else begin
+					swap = 0;
+					Am = Asem[9:0];
+					Bm = Bsem[9:0];
+					As = Asem[15];
+					Bs = Bsem[15];
+					exp = Asem[14:10];
+				end
 			end
 		end
 	end
