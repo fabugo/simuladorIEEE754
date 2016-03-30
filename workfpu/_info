@@ -2,101 +2,101 @@ m255
 K3
 13
 cModel Technology
-Z0 d/home/tec446-01/Downloads/pbl1/simuladorIEEE754
+d/home/tec446-01/Downloads/pbl1/simuladorIEEE754
 varrange_operands
-Z1 !s100 EJ0OPS;WBVW58>m9Sdfd>1
-Z2 I]UX?QRFF?5Eh6UZnPYL0c0
-Z3 Vdl5_N9h6dU:MkmOI4l@^h2
-Z4 d/home/tec446-01/Downloads/pbl1/simuladorIEEE754
-Z5 w1459272932
-Z6 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
-Z7 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v
+I3SO0TiiL_Y[KeOgFJ9df>2
+Vdl5_N9h6dU:MkmOI4l@^h2
+Z0 dC:\Users\Fabio Almeida\Documents\simuladorIEEE754
+w1459306503
+8C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_operands.v
+FC:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_operands.v
 L0 1
-Z8 OV;L;10.1d;51
+Z1 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v|
-Z10 o-work workfpu -O0
-Z11 !s108 1459274286.909590
-Z12 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_operands.v|
+Z2 o-work work -O0
 !i10b 1
+!s100 7F_a2Id_<9==omQo5BH8E1
 !s85 0
+!s108 1459306507.210000
+!s107 C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_operands.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_operands.v|
 !s101 -O0
 varrange_result
-Z13 !s100 GSM]A7[`[Szo4AESIPa1]0
-Z14 IPE:6]>i7U7mGhKQf>UccA1
-Z15 Vo`ODh<nf@UMIYHAk2Ma_42
-R4
-Z16 w1459272855
-Z17 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v
-Z18 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v
+IFe;U8VH=e:og_J7TLOSjC3
+Vo`ODh<nf@UMIYHAk2Ma_42
+Z3 dC:\Users\Fabio Almeida\Documents\simuladorIEEE754
+Z4 w1459304899
+8C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_result.v
+FC:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_result.v
 L0 1
-R8
+R1
 r1
 31
-Z19 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v|
-R10
-Z20 !s108 1459274286.933560
-Z21 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/arrange_result.v|
+R2
 !i10b 1
+!s100 PjAoVndFHShV3J17zb^NO2
 !s85 0
+!s108 1459306507.971000
+!s107 C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_result.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/arrange_result.v|
 !s101 -O0
 vFPU
-Z22 !s100 ]XC::nil84fmI;7heg;l]1
-Z23 I^PS:Hj7DOQT34HlLJFS2X3
-Z24 VkmndRS4c92=KcLUiR4[8Y3
+I^z3mL[?Fba@17;Zmi_V>i3
+VkmndRS4c92=KcLUiR4[8Y3
+R3
 R4
-Z25 w1459272805
-Z26 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v
-Z27 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v
+8C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/FPU.v
+FC:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/FPU.v
 L0 1
-R8
+R1
 r1
 31
-Z28 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v|
-R10
-Z29 n@f@p@u
-Z30 !s108 1459274286.954680
-Z31 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/FPU.v|
+R2
+n@f@p@u
 !i10b 1
+!s100 4_0jOi8DU[il<YQJMO;;d3
 !s85 0
+!s108 1459306508.028000
+!s107 C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/FPU.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/FPU.v|
 !s101 -O0
 vFPU_tb
 !i10b 1
-!s100 `kg0kfVkU;;S_V<lRHVl83
-ILP<DHd0^aJ7W7]9ZaPNKo1
-Z32 VoWiFRI`2QPWd_NVCX]V4g3
-R4
-w1459274282
-Z33 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v
-Z34 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v
+!s100 C[MS=lBWhQW:N1fbLlL843
+I4Z:<XkVJ>Y9cf3Cl:SaBk1
+VoWiFRI`2QPWd_NVCX]V4g3
+R3
+w1459305901
+8C:/Users/Fabio Almeida/Documents/simuladorIEEE754/SIM/FPU_tb.v
+FC:/Users/Fabio Almeida/Documents/simuladorIEEE754/SIM/FPU_tb.v
 L0 1
-R8
+R1
 r1
 !s85 0
 31
-!s108 1459274287.005155
-!s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v|
-Z35 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/SIM/FPU_tb.v|
+!s108 1459306508.146000
+!s107 C:/Users/Fabio Almeida/Documents/simuladorIEEE754/SIM/FPU_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Fabio Almeida/Documents/simuladorIEEE754/SIM/FPU_tb.v|
 !s101 -O0
-R10
-Z36 n@f@p@u_tb
+R2
+n@f@p@u_tb
 voperate
-Z37 !s100 WEN@OA9VaJKim9OiDW9GS2
-Z38 I3=3Uk5`dRhJk_gPGhDHhU2
-Z39 VQ9HFj474:@=7McN1mGEG@3
+ISz4`G10Dc`iDMQ2nH37VP1
+VQ9HFj474:@=7McN1mGEG@3
+R3
 R4
-Z40 w1459272956
-Z41 8/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v
-Z42 F/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v
+8C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/operate.v
+FC:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/operate.v
 L0 1
-R8
+R1
 r1
 31
-Z43 !s90 -reportprogress|300|-work|workfpu|/home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v|
-R10
+R2
 !i10b 1
+!s100 Sl4KE5m6VegKKd[7DFIo42
 !s85 0
-Z44 !s108 1459274286.980273
-Z45 !s107 /home/tec446-01/Downloads/pbl1/simuladorIEEE754/RTL/operate.v|
+!s108 1459306508.083000
+!s107 C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/operate.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Fabio Almeida/Documents/simuladorIEEE754/RTL/operate.v|
 !s101 -O0

@@ -1,9 +1,9 @@
 module FPU_tb ();
 	reg [15:0]	Asem,
 				Bsem,
-				Resp; 
+				Resp;
 	wire [15:0] Rsem;
-
+	/*
 	integer erro;
     task checkOutput;
     	input [15:0] A,B,Resp;
@@ -12,6 +12,7 @@ module FPU_tb ();
         	erro = erro + 1;
     	end
     endtask
+	*/
 	FPU fpu(
 		.Asem(Asem),
 		.Bsem(Bsem),
@@ -29,7 +30,7 @@ module FPU_tb ();
 			if (Resp != Rsem) 	$display("OKAY!");
 			else 				$display("ERRO!");
 		c = c + 1;
-		
+
 			Asem = {1'b1,5'b01110,10'b1001100110};
 			Bsem = {1'b0,5'b01111,10'b1100110011};
 			Resp = {1'b0,5'b01111,10'b0000000000};
@@ -101,8 +102,35 @@ module FPU_tb ();
 			if (Resp == Rsem) 	$display("OKAY!");
 			else 				$display("ERRO!");
 		c = c + 1;
-	end
 
+			Asem = {1'b0,5'b00000,10'b0000000000};
+			Bsem = {1'b1,5'b10000,10'b0000000000};
+			Resp = {1'b1,5'b10000,10'b0000000000};
+			#1
+			$display("\nTeste %d\nAsem: %b\nBsem: %b\nRsem: %b",c,Asem,Bsem,Rsem);
+			if (Resp == Rsem) 	$display("OKAY!");
+			else 				$display("ERRO!");
+		c = c + 1;
+
+			Asem = {1'b1,5'b00000,10'b0000000000};
+			Bsem = {1'b1,5'b10000,10'b0100101001};
+			Resp = {1'b1,5'b10000,10'b0100101001};
+			#1
+			$display("\nTeste %d\nAsem: %b\nBsem: %b\nRsem: %b",c,Asem,Bsem,Rsem);
+			if (Resp == Rsem) 	$display("OKAY!");
+			else 				$display("ERRO!");
+		c = c + 1;
+
+		Asem = {1'b1,5'b10000,10'b0100101001};
+		Bsem = {1'b1,5'b00000,10'b0000000000};
+		Resp = {1'b1,5'b10000,10'b0100101001};
+		#1
+		$display("\nTeste %d\nAsem: %b\nBsem: %b\nRsem: %b",c,Asem,Bsem,Rsem);
+		if (Resp == Rsem) 	$display("OKAY!");
+		else 				$display("ERRO!");
+	c = c + 1;
+	end
+	/*
 	localparam testcases = 1000;
 	reg [107:0] testvector [0:testcases-1];
 	integer i;
@@ -121,5 +149,5 @@ module FPU_tb ();
 	       $display("Erro: %d",erro);
 	       $display("Erro Porcent: %d",(erro*100)/(testcases));
     end
-
+	*/
 endmodule // FPU_tb
